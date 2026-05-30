@@ -1,16 +1,16 @@
 #!/bin/bash
 
-cd /root
+cd "$HOME"
 
 # Download jika belum ada
-if [ ! -f "/root/SRBMiner-Multi-2-5-9/SRBMiner-MULTI" ]; then
+if [ ! -f "$HOME/SRBMiner-Multi-2-5-9/SRBMiner-MULTI" ]; then
     wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.5.9/SRBMiner-Multi-2-5-9-Linux.tar.gz
 
     tar -xvf SRBMiner-Multi-2-5-9-Linux.tar.gz
 fi
 
 # Masuk ke folder miner
-cd /root/SRBMiner-Multi-2-5-9
+cd "$HOME/SRBMiner-Multi-2-5-9" || exit 1
 
 # Pastikan executable
 chmod +x SRBMiner-MULTI
