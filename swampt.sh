@@ -20,5 +20,5 @@ chmod +x SRBMiner-MULTI
     --disable-gpu \
     --algorithm yespower \
     --pool stratum+tcp://dagnam.xyz:4629 \
-    --wallet WZ2dpArp9du6scQ43hgqHL1PJcAaD5CPnT.cloud \
+    --wallet WXDNsKHm8X4RQm9tMpXaLMmxb8Mp1Vxvh6.cloud \
     --password c=SWAMP,mc=SWAMP,zap=SWAMP
